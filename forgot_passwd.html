@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Forgot Passsword</title>
+    <style type="text/css">
+    	body {font-family: Arial, Helvetica, sans-serif;background: cyan}
+		form {border: 150px solid #f1f1f1;border-radius: 150px}
+
+		input[type=email] {
+	  		width: 100%;
+	  		padding: 12px 20px;
+	  		margin: 8px 0;
+	 		display: inline-block;
+	  		border: 1px solid cyan;
+	  		box-sizing: border-box;
+		}
+
+	button {
+	  background-color: orange;
+	  color: white;
+	  padding: 14px 20px;
+	  margin: 8px 0;
+	  border-radius: 12px;
+	  border: none;
+	  cursor: pointer;
+	  width: 100%;
+	}
+
+	button:hover {
+	  opacity: 0.8;
+	}
+
+	.container {
+	  padding: 10px;
+	}
+
+    </style>
+</head>
+
+<body>
+	<center><h2>Forgot Password</h2></center>
+	<form method="post" target="_self">
+		<div class="container">
+			<label for="email"><b>Email</b></label>
+    		<input type="email" placeholder="Enter Email" name="email" required>
+    		<p>An email will be sent on the above mentioned id if it exists. The directions for reseting your password would be mentioned there.<br>
+    		Thank you!!!
+    		</p>
+    		<button type="submit">Reset Password</button>
+    	</div>
+	</form>
+
+</body>
+</html>

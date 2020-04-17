@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Explore Vacation | Services</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">Explore</span> Vacation</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="current"><a href="services.html">Services</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <script type="text/javascript">
+      function validate() {
+        var x = document.forms["subscribe"]["email"].value;
+        if(x="" || x==null){
+          alert("This field must be filled out");
+          return false;
+        }
+        else{
+          alert("Thank you for Subscribing");
+        }
+      }
+    </script>
+
+    <section id="newsletter">
+      <div class="container">
+        <h1>Subscribe To Our Newsletter</h1>
+        <form onsubmit="validate()" name="subscribe">
+          <input type="email" name="email" placeholder="Enter Email...">
+          <button type="submit" class="button_1">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="main">
+      <div class="container">
+        <article id="main-col">
+          <h1 class="page-title">Services</h1>
+          <ul id="services">
+            <li>
+              <h3>Maldives</h3>
+              <p>Beautiful real-life desert island located in Arabian sea of Indian Ocean. It has the most beautiful beaches and weather. It is comprised of 1192 islands. </p>
+						  <p>Pricing: Rs.40,000 - 60,000</p>
+            </li>
+            <li>
+              <h3>Rajasthan</h3>
+              <p>Explore the land of Maharajas having amazing museums and wildlife. The place is located in west India. It has breathtaking views and mountains.</p>
+						  <p>Pricing: Rs.10,000 - 40,000</p>
+            </li>
+            <li>
+              <h3>Manali</h3>
+              <p>Manali is a high-altitude Himalayan resort town in India’s northern Himachal Pradesh state. Set on the Beas River, it’s a gateway for skiing in the Solang Valley and trekking in Parvati Valley. It's also a jumping-off point for paragliding, rafting and mountaineering in the Pir Panjal mountains, home to 4,000m-high Rohtang Pass.</p>
+						  <p>Pricing: Rs.30,000 - 50,000</p>
+            </li>
+            <li>
+              <h3>Dubai</h3>
+              <p>Dubai is a city and emirate in the United Arab Emirates known for luxury shopping, ultramodern architecture and a lively nightlife scene. Burj Khalifa, an 830m-tall tower, dominates the skyscraper-filled skyline. At its foot lies Dubai Fountain, with jets and lights choreographed to music. On artificial islands just offshore is Atlantis, The Palm, a resort with water and marine-animal parks.</p>
+              <p>Pricing: Rs.70,000 - 1,20,000</p>
+            </li>
+            <li>
+              <h3>Assam</h3>
+              <p>Assam is a state in northeastern India known for its wildlife, archeological sites and tea plantations. In the west, Guwahati, Assam’s largest city, features silk bazaars and the hilltop Kamakhya Temple.</p>
+              <p>Pricing: Rs.30,000 - 50,000</p>
+            </li>
+          </ul>
+        </article>
+
+        <aside id="sidebar">
+          <div class="dark">
+            <h3>Get A Quote</h3>
+            <form class="quote">
+  						<div>
+  							<label>Name</label><br>
+  							<input type="text" placeholder="Name">
+  						</div>
+  						<div>
+  							<label>Email</label><br>
+  							<input type="email" placeholder="Email Address">
+  						</div>
+  						<div>
+  							<label>Message</label><br>
+  							<textarea placeholder="Message"></textarea>
+  						</div>
+  						<button class="button_1" type="submit">Send</button>
+					</form>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <footer>
+      <p>Explore Vacation, Copyright &copy; 2020</p>
+    </footer>
+  </body>
+</html>
